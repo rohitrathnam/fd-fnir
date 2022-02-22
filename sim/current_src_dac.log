@@ -1,0 +1,110 @@
+Circuit: * C:\Users\rohit\Documents\fd-fnir\sim\current_src_dac.asc
+
+Instance "m:u4:_nmos1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:_nmos1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u4:_nmos2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u4:_nmos2": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u3:_nmos1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_nmos1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u3:_nmos2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u3:_nmos2": Width narrower than recommended for a level 1 MOSFET.
+Direct Newton iteration failed to find .op point.  (Use ".option noopiter" to skip.)
+Starting Gmin stepping
+Gmin = 10
+Gmin = 1.07374
+vernier = 0.5
+vernier = 0.25
+vernier = 0.333333
+Gmin = 0.8133
+vernier = 0.444444
+Gmin = 0.321849
+vernier = 0.592592
+vernier = 0.790123
+Gmin = 0.0736288
+vernier = 1
+Gmin = 0.00899121
+Gmin = 0.000965423
+Gmin = 0.000103662
+Gmin = 1.11306e-005
+Gmin = 1.19514e-006
+Gmin = 1.28327e-007
+Gmin = 1.3779e-008
+Gmin = 1.47951e-009
+Gmin = 1.58861e-010
+Gmin = 1.70576e-011
+Gmin = 1.83154e-012
+Gmin = 1.9666e-013
+Gmin = 0
+Gmin stepping succeeded in finding the operating point.
+
+Semiconductor Device Operating Points:
+                        --- Diodes ---
+Name:  d:u4:ilim_source d:u4:ilim_sink d:u3:ilim_source d:u3:ilim_sink d:u4:prot_in_p_vccn
+Model:    diode_ilim      diode_ilim      diode_ilim      diode_ilim       diode_vlim
+Id:        0.00e+00        0.00e+00        0.00e+00        0.00e+00          2.07e-13
+Vd:        0.00e+00        0.00e+00        0.00e+00        0.00e+00          1.21e-01
+Req:       9.70e+11        9.70e+11        9.70e+11        9.70e+11          2.29e+11
+CAP:       0.00e+00        0.00e+00        0.00e+00        0.00e+00          0.00e+00
+
+Name:  d:u4:prot_in_p_vccp d:u4:prot_in_m_vccn d:u4:prot_in_m_vccp d:u3:prot_in_p_vccn d:u3:prot_in_p_vccp
+Model:     diode_vlim          diode_vlim          diode_vlim          diode_vlim          diode_vlim
+Id:         -3.12e-12            1.88e-13           -3.12e-12            2.62e-13           -3.13e-12
+Vd:         -3.12e+00            1.16e-01           -3.12e+00            1.32e-01           -3.13e+00
+Req:         1.00e+12            2.64e+11            1.00e+12            1.65e+11            1.00e+12
+CAP:         0.00e+00            0.00e+00            0.00e+00            0.00e+00            0.00e+00
+
+Name:  d:u3:prot_in_m_vccn d:u3:prot_in_m_vccp d:u4:vlim_low_vb d:u4:vlim_high_vb d:u4:_outvlim_low
+Model:     diode_vlim          diode_vlim         diode_novd       diode_novd        diode_novd
+Id:          2.62e-13           -3.13e-12         -3.31e-12          2.39e-07          3.32e-02
+Vd:          1.32e-01           -3.13e+00         -3.30e+00          4.39e-04          7.46e-04
+Req:         1.65e+11            1.00e+12          1.00e+12          1.08e+02          7.79e-04
+CAP:         0.00e+00            0.00e+00          0.00e+00          0.00e+00          0.00e+00
+
+Name:  d:u4:_outvlim_high d:u3:vlim_low_vb d:u3:vlim_high_vb d:u3:_outvlim_low d:u3:_outvlim_high
+Model:     diode_novd        diode_novd       diode_novd        diode_novd         diode_novd
+Id:        -3.25e-12         -1.60e-12         -1.72e-12         -1.74e-14         -3.24e-12
+Vd:        -3.24e+00         -1.59e+00         -1.71e+00         -7.40e-03         -3.23e+00
+Req:        1.00e+12          1.00e+12          1.00e+12          1.00e+12          1.00e+12
+CAP:        0.00e+00          0.00e+00          0.00e+00          0.00e+00          0.00e+00
+
+                        --- MOSFET Transistors ---
+Name:      m:u4:_nmos1 m:u4:_nmos2 m:u3:_nmos1 m:u3:_nmos2
+Model:        mos_n       mos_n       mos_n       mos_n
+Id:          1.36e-06    1.64e-06    1.50e-06    1.50e-06
+Vgs:         7.01e-01    7.06e-01    7.03e-01    7.03e-01
+Vds:         4.12e+00    4.12e+00    4.13e+00    4.13e+00
+Vbs:        -4.28e-01   -4.28e-01   -4.15e-01   -4.15e-01
+Vth:         6.50e-01    6.50e-01    6.50e-01    6.50e-01
+Vdsat:       5.10e-02    5.58e-02    5.35e-02    5.34e-02
+Gm:          5.35e-05    5.86e-05    5.61e-05    5.61e-05
+Gds:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Gmb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cbs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgsov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgdov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgbov:       0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgs:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgd:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+Cgb:         0.00e+00    0.00e+00    0.00e+00    0.00e+00
+
+
+
+Date: Tue Feb 22 11:30:18 2022
+Total elapsed time: 1.498 seconds.
+
+tnom = 27
+temp = 27
+method = trap
+totiter = 11665
+traniter = 0
+tranpoints = 0
+accept = 0
+rejected = 0
+matrix size = 181
+fillins = 377
+solver = Normal
+Thread vector: 11.5/4.9[4] 0.0/0.0[0] 4.8/2.1[4] 0.4/0.6[1]  2592/500
+Matrix Compiler1: 27.47 KB object code size
+Matrix Compiler2: off  [1.0]/1.8/1.1
+
