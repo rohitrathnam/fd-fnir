@@ -1,0 +1,11 @@
+Circuit: * C:\Users\rohit\Documents\fd-fnir\sim\Draft1.asc
+
+Error on line 4 : r1 n002 n001 r
+	 Unable to find definition of model "r"
+Error on line 5 : c1 n002 n001 c
+	 Unable to find definition of model "c"
+Instance "m:u1:_nmos1": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_nmos1": Width narrower than recommended for a level 1 MOSFET.
+Instance "m:u1:_nmos2": Length shorter than recommended for a level 1 MOSFET.
+Instance "m:u1:_nmos2": Width narrower than recommended for a level 1 MOSFET.
+Fatal Error: Missing capacitance value for "C1"

@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "RP2040 Pico")(type "Legacy")(uri "${KIPRJMOD}/RPi_Pico.lib")(options "")(descr ""))
+  (lib (name "fd-fnir")(type "KiCad")(uri "${KIPRJMOD}/fd-fnir-v1.kicad_sym")(options "")(descr ""))
 )
