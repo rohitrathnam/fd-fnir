@@ -2918,9 +2918,9 @@
   )
 
   (symbol (lib_id "fd-fnir:R_Pack04_SIP_Split") (at 63.5 97.79 270) (unit 4)
-    (in_bom yes) (on_board yes) (fields_autoplaced)
+    (in_bom yes) (on_board yes)
     (uuid f394be56-be3c-42a7-a975-55b240b92972)
-    (property "Reference" "RN1" (id 0) (at 63.5 93.98 90))
+    (property "Reference" "RN1" (id 0) (at 63.5 95.25 90))
     (property "Value" "R_Pack04_SIP_Split" (id 1) (at 63.5 101.6 90)
       (effects (font (size 1.27 1.27)) hide)
     )
