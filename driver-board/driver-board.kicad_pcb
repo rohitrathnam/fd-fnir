@@ -13,13 +13,10 @@
     (38 "B.Mask" user)
     (39 "F.Mask" user)
     (40 "Dwgs.User" user "User.Drawings")
-    (41 "Cmts.User" user "User.Comments")
     (44 "Edge.Cuts" user)
     (45 "Margin" user)
     (46 "B.CrtYd" user "B.Courtyard")
     (47 "F.CrtYd" user "F.Courtyard")
-    (48 "B.Fab" user)
-    (49 "F.Fab" user)
   )
 
   (setup
@@ -1930,6 +1927,7 @@
   )
 
   (gr_line (start 53.75 134.5) (end 53.75 74.5) (layer "Edge.Cuts") (width 0.15) (tstamp 08ce793d-a4be-44ba-a523-dadcd231a664))
+  (gr_arc (start 208 129.8) (mid 209.649643 128.047236) (end 211.302498 129.8) (layer "Edge.Cuts") (width 0.1) (tstamp 1e1ec918-8b59-47f7-9aba-420cd671e972))
   (gr_line (start 169.75 74.5) (end 169.75 144.45) (layer "Edge.Cuts") (width 0.15) (tstamp 73e8aa77-d40a-4ca9-9289-4ce77770c8e2))
   (gr_line (start 169.75 144.45) (end 53.6 144.45) (layer "Edge.Cuts") (width 0.15) (tstamp 912bf9dc-d393-47d2-8b55-ca27b6569ac5))
   (gr_line (start 53.75 74.5) (end 169.75 74.5) (layer "Edge.Cuts") (width 0.15) (tstamp e3dee057-f006-4afd-8475-35fcba80326e))
