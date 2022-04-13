@@ -4,6 +4,14 @@
 
   (paper "A4")
 
+  (title_block
+    (title "FD-fNIRS")
+    (date "2022-03-18")
+    (rev "1")
+    (comment 1 "rohitrathnam.n@gmail.com")
+    (comment 2 "Rohit Rathnam Nareshkumar")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:LM2904" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
