@@ -2157,7 +2157,7 @@
   (symbol (lib_id "power:GND") (at 149.86 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 040bf59b-fbb7-4231-bd13-1fd840025f64)
-    (property "Reference" "#PWR?" (id 0) (at 149.86 191.77 0)
+    (property "Reference" "#PWR018" (id 0) (at 149.86 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 149.86 190.5 0))
@@ -2331,7 +2331,7 @@
   (symbol (lib_id "Device:R_Small") (at 152.4 185.42 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 1cf62cc7-1010-44e6-8cd7-c001e7338f13)
-    (property "Reference" "R?" (id 0) (at 152.4 179.07 90))
+    (property "Reference" "R5" (id 0) (at 152.4 179.07 90))
     (property "Value" "0" (id 1) (at 152.4 181.61 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 152.4 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2346,7 +2346,7 @@
   (symbol (lib_id "Device:R_Small") (at 163.83 185.42 270) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 20148975-352b-4236-99e3-455ca3d81d13)
-    (property "Reference" "R?" (id 0) (at 163.83 179.07 90))
+    (property "Reference" "R6" (id 0) (at 163.83 179.07 90))
     (property "Value" "0" (id 1) (at 163.83 181.61 90))
     (property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder" (id 2) (at 163.83 185.42 0)
       (effects (font (size 1.27 1.27)) hide)
@@ -2665,7 +2665,7 @@
   (symbol (lib_id "power:GND") (at 161.29 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 65a807e3-8829-4514-b345-941e991cdeda)
-    (property "Reference" "#PWR?" (id 0) (at 161.29 191.77 0)
+    (property "Reference" "#PWR020" (id 0) (at 161.29 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 161.29 190.5 0))
@@ -2991,7 +2991,7 @@
   (symbol (lib_id "power:GND") (at 166.37 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid a0a36433-ee07-4eed-be02-830401b43bf9)
-    (property "Reference" "#PWR?" (id 0) (at 166.37 191.77 0)
+    (property "Reference" "#PWR021" (id 0) (at 166.37 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 166.37 190.5 0))
@@ -3126,7 +3126,7 @@
   (symbol (lib_id "power:GND") (at 154.94 185.42 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid bf0870b4-91b0-4f0e-8976-45b812b1b4e4)
-    (property "Reference" "#PWR?" (id 0) (at 154.94 191.77 0)
+    (property "Reference" "#PWR019" (id 0) (at 154.94 191.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (id 1) (at 154.94 190.5 0))
@@ -3400,16 +3400,16 @@
       (reference "#PWR017") (unit 1) (value "GND") (footprint "")
     )
     (path "/040bf59b-fbb7-4231-bd13-1fd840025f64"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/65a807e3-8829-4514-b345-941e991cdeda"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/a0a36433-ee07-4eed-be02-830401b43bf9"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR018") (unit 1) (value "GND") (footprint "")
     )
     (path "/bf0870b4-91b0-4f0e-8976-45b812b1b4e4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR019") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/65a807e3-8829-4514-b345-941e991cdeda"
+      (reference "#PWR020") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/a0a36433-ee07-4eed-be02-830401b43bf9"
+      (reference "#PWR021") (unit 1) (value "GND") (footprint "")
     )
     (path "/54c56ebb-04a4-4c38-b674-96f562eba779"
       (reference "C1") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
@@ -3492,14 +3492,14 @@
     (path "/11e8e98a-cdc1-4f3b-ae73-ae6daf5100ec"
       (reference "R4") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
-    (path "/99c9f3de-006c-4e95-b8c2-34bf96b3d90d"
-      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
-    )
     (path "/1cf62cc7-1010-44e6-8cd7-c001e7338f13"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R5") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/20148975-352b-4236-99e3-455ca3d81d13"
-      (reference "R?") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+      (reference "R6") (unit 1) (value "0") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
+    )
+    (path "/99c9f3de-006c-4e95-b8c2-34bf96b3d90d"
+      (reference "R7") (unit 1) (value "1k") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
     )
     (path "/ccf42105-7c88-40e9-acfe-aba673874876"
       (reference "RN1") (unit 1) (value "R_Pack04_SIP_Split") (footprint "lib:ACASA5002S5002P1AT")
