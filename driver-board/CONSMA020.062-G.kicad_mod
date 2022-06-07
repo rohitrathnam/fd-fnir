@@ -1,6 +1,6 @@
 (footprint "CONSMA020.062-G" (version 20211014) (generator pcbnew)
   (layer "F.Cu")
-  (tedit 6218A57E)
+  (tedit 629F1C91)
   (fp_text reference "REF**" (at -11 -8.9 unlocked) (layer "F.SilkS")
     (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d33c6077-a8ec-48ca-b0e0-97f3539ef54c)
@@ -18,4 +18,9 @@
   (pad "2" connect rect (at 4.25 0) (size 1.6 4.9) (layers "F.Cu" "F.Mask") (tstamp 46a20b99-b616-4fa4-af79-eecf92b5c191))
   (pad "2" connect rect (at -4.25 0) (size 1.6 4.9) (layers "B.Cu" "B.Mask") (tstamp 8162f841-188b-4932-8603-536d516e6ca1))
   (pad "2" connect rect (at 4.25 0) (size 1.6 4.9) (layers "B.Cu" "B.Mask") (tstamp a2d090b5-bdc2-4863-87f2-2ea46a246d3d))
+  (model "${KIPRJMOD}/CONSMA020.062-G--3DModel-STEP-56544.STEP"
+    (offset (xyz 0 -3.5 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz -90 0 0))
+  )
 )
