@@ -1,5 +1,5 @@
 #Library for the MCP4725 I2C bus DAC 
-from machine import I2C
+from machine import Pin, I2C
 
 #The MCP4725 has support from 2 addresses
 BUS_ADDRESS = [0x62,0x63]
@@ -52,6 +52,9 @@ class MCP4725:
             if item == value:
                 return key
 
-i2c=I2C(0,freq=400000,scl=machine.Pin(21),sda=machine.Pin(20))
+led = Pin(25, Pin.OUT)
+led.toggle()
+
+i2c=I2C(0,freq=400000,scl=Pin(21),sda=Pin(20))
 dac = MCP4725(i2c,96)
 dac.write(0)
